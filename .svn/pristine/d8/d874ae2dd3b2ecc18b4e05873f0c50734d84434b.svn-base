@@ -1,0 +1,61 @@
+/* ----------------------------------------------
+ * Header Start
+ */
+/* ---------------------------------------------- */
+.right {
+    text-align: right;
+}
+.b-light {
+    border-color: #e4e4e4;
+}
+.b-b {
+    border-bottom: 1px solid #cfcfcf;
+}
+.bg-light {
+    background-color: #f1f1f1;
+    color: #717171;
+}
+.header{
+    background: -moz-linear-gradient(center top , #f9f6f1 0%, #f2efea 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #d6d6d6;
+    line-height: 30px;
+    position: relative;
+    padding: 10px;
+    display: block;
+}
+
+.btn-group {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+}
+
+.btn-dark{
+	background-color: #2e3e4e;
+    border-color: #2e3e4e;
+    color: #fff !important;
+}
+
+.btn-icon {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    width: 34px;
+}
+
+.left{
+	float: left;
+}
+
+.table-bordered th{
+	font-size: 12px;
+}
+
+.text-right{
+	text-align: right !important;
+}
+
+.process-label{
+	width:50px;
+	float:left;
+}

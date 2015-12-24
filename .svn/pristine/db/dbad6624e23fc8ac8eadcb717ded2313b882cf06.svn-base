@@ -1,0 +1,721 @@
+2014-11-22 08:21:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rupayan/css/cake.generic.css
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-22 08:21:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /rupayan/img/message_avatar1.png
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-22 08:21:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /rupayan/img/message_avatar2.png
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-22 08:22:35 Error: [MissingViewException] View file "D:\xampp\htdocs\rupayan\app\View\Pages\display.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\rupayan\\app\\View\\Pages\\display.ctp',
+)
+Request URL: /rupayan/
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\lib\Cake\View\View.php(457): View->_getViewFileName(NULL)
+#1 D:\xampp\htdocs\rupayan\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 D:\xampp\htdocs\rupayan\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 D:\xampp\htdocs\rupayan\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-22 08:22:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rupayan/css/cake.generic.css
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-22 08:23:43 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /rupayan/img/message_avatar1.png
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-22 08:23:43 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /rupayan/img/message_avatar2.png
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-22 08:37:48 Error: [MissingControllerException] Controller class Reports.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Reports.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /rupayan/reports.html
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-22 08:37:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rupayan/css/cake.generic.css
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-23 04:38:18 Error: [MissingHelperException] Helper class TestHelper could not be found.
+Exception Attributes: array (
+  'class' => 'TestHelper',
+  'plugin' => false,
+)
+Request URL: /rupayan/users
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\lib\Cake\View\View.php(867): HelperCollection->load('Test', Array)
+#1 D:\xampp\htdocs\rupayan\lib\Cake\View\View.php(341): View->loadHelpers()
+#2 D:\xampp\htdocs\rupayan\lib\Cake\Controller\Controller.php(1240): View->__construct(Object(UsersController))
+#3 D:\xampp\htdocs\rupayan\lib\Cake\Controller\Controller.php(938): Controller->_getViewObject()
+#4 D:\xampp\htdocs\rupayan\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#5 D:\xampp\htdocs\rupayan\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#6 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-11-23 04:38:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rupayan/css/cake.generic.css
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-23 04:38:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rupayan/css/cake.generic.css
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-23 04:41:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rupayan/css/cake.generic.css
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-23 04:47:20 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /rupayan/fonts/fontawesome-webfont.woff?v=4.2.0
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-23 04:47:20 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /rupayan/fonts/fontawesome-webfont.ttf?v=4.2.0
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-23 06:39:42 Error: [NotFoundException] Invalid user
+Request URL: /rupayan/users/edit/index.html
+Stack Trace:
+#0 [internal function]: UsersController->edit('index.html')
+#1 D:\xampp\htdocs\rupayan\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 D:\xampp\htdocs\rupayan\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 D:\xampp\htdocs\rupayan\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-23 06:39:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rupayan/css/cake.generic.css
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 05:09:49 Error: [MissingControllerException] Controller class RupayanController could not be found.
+Exception Attributes: array (
+  'class' => 'RupayanController',
+  'plugin' => NULL,
+)
+Request URL: /rupayan/rupayan/favicon.gif
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 05:09:49 Error: [MissingControllerException] Controller class RupayanController could not be found.
+Exception Attributes: array (
+  'class' => 'RupayanController',
+  'plugin' => NULL,
+)
+Request URL: /rupayan/rupayan/favicon.gif
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 05:09:49 Error: [MissingControllerException] Controller class RupayanController could not be found.
+Exception Attributes: array (
+  'class' => 'RupayanController',
+  'plugin' => NULL,
+)
+Request URL: /rupayan/rupayan/favicon.gif
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 05:09:49 Error: [MissingControllerException] Controller class RupayanController could not be found.
+Exception Attributes: array (
+  'class' => 'RupayanController',
+  'plugin' => NULL,
+)
+Request URL: /rupayan/rupayan/favicon.gif
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 05:09:49 Error: [MissingControllerException] Controller class RupayanController could not be found.
+Exception Attributes: array (
+  'class' => 'RupayanController',
+  'plugin' => NULL,
+)
+Request URL: /rupayan/rupayan/favicon.gif
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 05:09:49 Error: [MissingControllerException] Controller class RupayanController could not be found.
+Exception Attributes: array (
+  'class' => 'RupayanController',
+  'plugin' => NULL,
+)
+Request URL: /rupayan/rupayan/favicon.gif
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 05:09:49 Error: [MissingControllerException] Controller class RupayanController could not be found.
+Exception Attributes: array (
+  'class' => 'RupayanController',
+  'plugin' => NULL,
+)
+Request URL: /rupayan/rupayan/favicon.gif
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 05:09:50 Error: [MissingControllerException] Controller class RupayanController could not be found.
+Exception Attributes: array (
+  'class' => 'RupayanController',
+  'plugin' => NULL,
+)
+Request URL: /rupayan/rupayan/favicon.gif
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 05:10:13 Error: [MissingControllerException] Controller class RupayanController could not be found.
+Exception Attributes: array (
+  'class' => 'RupayanController',
+  'plugin' => NULL,
+)
+Request URL: /rupayan/rupayan/pages/favicon.gif
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 05:10:13 Error: [MissingControllerException] Controller class RupayanController could not be found.
+Exception Attributes: array (
+  'class' => 'RupayanController',
+  'plugin' => NULL,
+)
+Request URL: /rupayan/rupayan/pages/favicon.gif
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 05:10:13 Error: [MissingControllerException] Controller class RupayanController could not be found.
+Exception Attributes: array (
+  'class' => 'RupayanController',
+  'plugin' => NULL,
+)
+Request URL: /rupayan/rupayan/pages/favicon.gif
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 05:10:13 Error: [MissingControllerException] Controller class RupayanController could not be found.
+Exception Attributes: array (
+  'class' => 'RupayanController',
+  'plugin' => NULL,
+)
+Request URL: /rupayan/rupayan/pages/favicon.gif
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 05:10:13 Error: [MissingControllerException] Controller class RupayanController could not be found.
+Exception Attributes: array (
+  'class' => 'RupayanController',
+  'plugin' => NULL,
+)
+Request URL: /rupayan/rupayan/pages/favicon.gif
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 05:10:13 Error: [MissingControllerException] Controller class RupayanController could not be found.
+Exception Attributes: array (
+  'class' => 'RupayanController',
+  'plugin' => NULL,
+)
+Request URL: /rupayan/rupayan/pages/favicon.gif
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 05:10:14 Error: [MissingControllerException] Controller class RupayanController could not be found.
+Exception Attributes: array (
+  'class' => 'RupayanController',
+  'plugin' => NULL,
+)
+Request URL: /rupayan/rupayan/pages/favicon.gif
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 05:10:14 Error: [MissingControllerException] Controller class RupayanController could not be found.
+Exception Attributes: array (
+  'class' => 'RupayanController',
+  'plugin' => NULL,
+)
+Request URL: /rupayan/rupayan/pages/favicon.gif
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 06:47:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rupayan/css/cake.generic.css
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 07:03:11 Error: [MissingControllerException] Controller class Charts.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Charts.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /rupayan/charts.html
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 07:03:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rupayan/css/cake.generic.css
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 07:13:58 Error: [MissingViewException] View file "D:\xampp\htdocs\rupayan\app\View\AuthorizedMenus\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\rupayan\\app\\View\\AuthorizedMenus\\index.ctp',
+)
+Request URL: /rupayan/authorized_menus
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\lib\Cake\View\View.php(457): View->_getViewFileName(NULL)
+#1 D:\xampp\htdocs\rupayan\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 D:\xampp\htdocs\rupayan\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 D:\xampp\htdocs\rupayan\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AuthorizedMenusController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-24 07:13:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rupayan/css/cake.generic.css
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 07:14:05 Error: [MissingViewException] View file "D:\xampp\htdocs\rupayan\app\View\AuthorizedMenus\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\rupayan\\app\\View\\AuthorizedMenus\\index.ctp',
+)
+Request URL: /rupayan/authorizedmenus
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\lib\Cake\View\View.php(457): View->_getViewFileName(NULL)
+#1 D:\xampp\htdocs\rupayan\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 D:\xampp\htdocs\rupayan\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 D:\xampp\htdocs\rupayan\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AuthorizedMenusController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-24 07:14:06 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rupayan/css/cake.generic.css
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 07:14:24 Error: [MissingViewException] View file "D:\xampp\htdocs\rupayan\app\View\AuthorizedMenus\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\rupayan\\app\\View\\AuthorizedMenus\\index.ctp',
+)
+Request URL: /rupayan/authorized_menus
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\lib\Cake\View\View.php(457): View->_getViewFileName(NULL)
+#1 D:\xampp\htdocs\rupayan\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 D:\xampp\htdocs\rupayan\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 D:\xampp\htdocs\rupayan\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AuthorizedMenusController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-24 07:14:24 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rupayan/css/cake.generic.css
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 07:14:50 Error: [MissingViewException] View file "D:\xampp\htdocs\rupayan\app\View\AuthorizedMenus\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\rupayan\\app\\View\\AuthorizedMenus\\index.ctp',
+)
+Request URL: /rupayan/AuthorizedMenus
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\lib\Cake\View\View.php(457): View->_getViewFileName(NULL)
+#1 D:\xampp\htdocs\rupayan\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 D:\xampp\htdocs\rupayan\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 D:\xampp\htdocs\rupayan\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AuthorizedMenusController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-24 07:14:51 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rupayan/css/cake.generic.css
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 07:18:40 Error: [MissingControllerException] Controller class RoleController could not be found.
+Exception Attributes: array (
+  'class' => 'RoleController',
+  'plugin' => NULL,
+)
+Request URL: /rupayan/role
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 07:18:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rupayan/css/cake.generic.css
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 07:21:02 Error: [MissingActionException] Action RolesController::company_infos() could not be found.
+Exception Attributes: array (
+  'controller' => 'RolesController',
+  'action' => 'company_infos',
+)
+Request URL: /rupayan/roles/company_infos
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\rupayan\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(RolesController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-24 07:21:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rupayan/css/cake.generic.css
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 12:34:41 Error: [MissingActionException] Action AuthorizedMenusController::shortcodes.html() could not be found.
+Exception Attributes: array (
+  'controller' => 'AuthorizedMenusController',
+  'action' => 'shortcodes.html',
+)
+Request URL: /rupayan/authorized_menus/shortcodes.html
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\rupayan\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AuthorizedMenusController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-24 12:34:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rupayan/css/cake.generic.css
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-25 07:08:21 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'dominion_id' in group statement is ambiguous
+Request URL: /rupayan/permissions
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\rupayan\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Permiss...', Array)
+#2 D:\xampp\htdocs\rupayan\lib\Cake\Model\Datasource\DboSource.php(665): DboSource->execute('SELECT `Permiss...', Array, Array)
+#3 D:\xampp\htdocs\rupayan\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT `Permiss...', false)
+#4 D:\xampp\htdocs\rupayan\lib\Cake\Model\Model.php(2902): DboSource->read(Object(Permission), Array)
+#5 D:\xampp\htdocs\rupayan\lib\Cake\Model\Model.php(2874): Model->_readDataSource('all', Array)
+#6 D:\xampp\htdocs\rupayan\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 D:\xampp\htdocs\rupayan\app\Controller\PermissionsController.php(41): PaginatorComponent->paginate()
+#8 [internal function]: PermissionsController->index()
+#9 D:\xampp\htdocs\rupayan\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PermissionsController), Array)
+#10 D:\xampp\htdocs\rupayan\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 D:\xampp\htdocs\rupayan\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PermissionsController), Object(CakeRequest), Object(CakeResponse))
+#12 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-11-25 07:08:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rupayan/css/cake.generic.css
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-25 09:42:43 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Permission.role_id5472ce97-7860-4a5a-a083-10241b2ba194' in 'where clause'
+Request URL: /rupayan/permissions/edit/5472ce97-7860-4a5a-a083-10241b2ba194
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\rupayan\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Permiss...', Array)
+#2 D:\xampp\htdocs\rupayan\lib\Cake\Model\Datasource\DboSource.php(665): DboSource->execute('SELECT `Permiss...', Array, Array)
+#3 D:\xampp\htdocs\rupayan\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT `Permiss...', false)
+#4 D:\xampp\htdocs\rupayan\lib\Cake\Model\Model.php(2902): DboSource->read(Object(Permission), Array)
+#5 D:\xampp\htdocs\rupayan\lib\Cake\Model\Model.php(2874): Model->_readDataSource('all', Array)
+#6 D:\xampp\htdocs\rupayan\app\Controller\PermissionsController.php(108): Model->find('all', Array)
+#7 [internal function]: PermissionsController->edit('5472ce97-7860-4...')
+#8 D:\xampp\htdocs\rupayan\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PermissionsController), Array)
+#9 D:\xampp\htdocs\rupayan\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 D:\xampp\htdocs\rupayan\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PermissionsController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-11-25 09:42:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rupayan/css/cake.generic.css
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-25 11:16:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /rupayan/img/signin/password.png
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-25 11:16:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /rupayan/img/signin/user.png
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-25 11:27:27 Error: Fatal Error (1): Call to a member function login() on a non-object in [D:\xampp\htdocs\rupayan\app\Controller\UsersController.php, line 125]
+2014-11-25 11:27:27 Error: [FatalErrorException] Call to a member function login() on a non-object
+Request URL: /rupayan/users/login
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\xampp\htdocs...', 125)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\xampp\htdocs...', 125, Array)
+#2 D:\xampp\htdocs\rupayan\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\xampp\htdocs...', 125, Array)
+#3 D:\xampp\htdocs\rupayan\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-25 11:27:27 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rupayan/css/cake.generic.css
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-25 11:28:02 Error: Fatal Error (1): Call to a member function login() on a non-object in [D:\xampp\htdocs\rupayan\app\Controller\UsersController.php, line 125]
+2014-11-25 11:28:02 Error: [FatalErrorException] Call to a member function login() on a non-object
+Request URL: /rupayan/users/login
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\xampp\htdocs...', 125)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\xampp\htdocs...', 125, Array)
+#2 D:\xampp\htdocs\rupayan\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\xampp\htdocs...', 125, Array)
+#3 D:\xampp\htdocs\rupayan\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-25 11:28:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rupayan/css/cake.generic.css
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-25 11:38:57 Error: Fatal Error (1): Class 'AuthComponent' not found in [D:\xampp\htdocs\rupayan\app\Model\User.php, line 75]
+2014-11-25 11:38:57 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /rupayan/users/add
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', 'D:\xampp\htdocs...', 75)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', 'D:\xampp\htdocs...', 75, Array)
+#2 D:\xampp\htdocs\rupayan\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', 'D:\xampp\htdocs...', 75, Array)
+#3 D:\xampp\htdocs\rupayan\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-25 11:38:57 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rupayan/css/cake.generic.css
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-25 12:10:59 Error: Fatal Error (1): Call to a member function getPermission() on a non-object in [D:\xampp\htdocs\rupayan\app\Controller\AppController.php, line 49]
+2014-11-25 12:10:59 Error: [FatalErrorException] Call to a member function getPermission() on a non-object
+Request URL: /rupayan/pages/login
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\xampp\htdocs...', 49)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\xampp\htdocs...', 49, Array)
+#2 D:\xampp\htdocs\rupayan\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\xampp\htdocs...', 49, Array)
+#3 D:\xampp\htdocs\rupayan\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-25 12:10:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rupayan/css/cake.generic.css
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-26 04:54:36 Error: [MissingHelperException] Helper class statusHelper could not be found.
+Exception Attributes: array (
+  'class' => 'statusHelper',
+  'plugin' => false,
+)
+Request URL: /rupayan/authorized_menus/add
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('status')
+#1 D:\xampp\htdocs\rupayan\lib\Cake\View\View.php(818): HelperCollection->__isset('status')
+#2 D:\xampp\htdocs\rupayan\app\View\AuthorizedMenus\add.ctp(25): View->__get('status')
+#3 D:\xampp\htdocs\rupayan\lib\Cake\View\View.php(929): include('D:\xampp\htdocs...')
+#4 D:\xampp\htdocs\rupayan\lib\Cake\View\View.php(891): View->_evaluate('D:\xampp\htdocs...', Array)
+#5 D:\xampp\htdocs\rupayan\lib\Cake\View\View.php(460): View->_render('D:\xampp\htdocs...')
+#6 D:\xampp\htdocs\rupayan\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#7 D:\xampp\htdocs\rupayan\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#8 D:\xampp\htdocs\rupayan\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AuthorizedMenusController), Object(CakeRequest), Object(CakeResponse))
+#9 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-11-26 04:54:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /rupayan/css/cake.generic.css
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-26 06:05:40 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'contain' at line 1
+Request URL: /rupayan/authorized_menus
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\rupayan\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('contain', Array)
+#2 D:\xampp\htdocs\rupayan\lib\Cake\Model\Datasource\DboSource.php(665): DboSource->execute('contain', Array, Array)
+#3 D:\xampp\htdocs\rupayan\lib\Cake\Model\Datasource\DboSource.php(609): DboSource->fetchAll('contain', Array, Array)
+#4 D:\xampp\htdocs\rupayan\lib\Cake\Model\Model.php(800): DboSource->query('contain', Array, Object(AuthorizedMenu))
+#5 D:\xampp\htdocs\rupayan\app\Controller\AppController.php(79): Model->__call('contain', Array)
+#6 D:\xampp\htdocs\rupayan\app\Controller\AppController.php(79): AuthorizedMenu->contain(Array)
+#7 D:\xampp\htdocs\rupayan\app\Controller\AppController.php(53): AppController->getAdminMenu()
+#8 D:\xampp\htdocs\rupayan\lib\Cake\Controller\Component\Auth\ControllerAuthorize.php(65): AppController->isAuthorized(Array)
+#9 D:\xampp\htdocs\rupayan\lib\Cake\Controller\Component\AuthComponent.php(462): ControllerAuthorize->authorize(Array, Object(CakeRequest))
+#10 D:\xampp\htdocs\rupayan\lib\Cake\Controller\Component\AuthComponent.php(307): AuthComponent->isAuthorized(Array)
+#11 [internal function]: AuthComponent->startup(Object(AuthorizedMenusController))
+#12 D:\xampp\htdocs\rupayan\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#13 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#14 D:\xampp\htdocs\rupayan\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#15 D:\xampp\htdocs\rupayan\lib\Cake\Controller\Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#16 D:\xampp\htdocs\rupayan\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#17 D:\xampp\htdocs\rupayan\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AuthorizedMenusController), Object(CakeRequest), Object(CakeResponse))
+#18 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 {main}
+2014-11-26 06:06:35 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'contain' at line 1
+Request URL: /rupayan/authorized_menus/view/54755e0d-502c-4573-9fd6-0ac81b2ba194
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\rupayan\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('contain', Array)
+#2 D:\xampp\htdocs\rupayan\lib\Cake\Model\Datasource\DboSource.php(665): DboSource->execute('contain', Array, Array)
+#3 D:\xampp\htdocs\rupayan\lib\Cake\Model\Datasource\DboSource.php(609): DboSource->fetchAll('contain', Array, Array)
+#4 D:\xampp\htdocs\rupayan\lib\Cake\Model\Model.php(800): DboSource->query('contain', Array, Object(AuthorizedMenu))
+#5 D:\xampp\htdocs\rupayan\app\Controller\AppController.php(79): Model->__call('contain', Array)
+#6 D:\xampp\htdocs\rupayan\app\Controller\AppController.php(79): AuthorizedMenu->contain(Array)
+#7 D:\xampp\htdocs\rupayan\app\Controller\AppController.php(53): AppController->getAdminMenu()
+#8 D:\xampp\htdocs\rupayan\lib\Cake\Controller\Component\Auth\ControllerAuthorize.php(65): AppController->isAuthorized(Array)
+#9 D:\xampp\htdocs\rupayan\lib\Cake\Controller\Component\AuthComponent.php(462): ControllerAuthorize->authorize(Array, Object(CakeRequest))
+#10 D:\xampp\htdocs\rupayan\lib\Cake\Controller\Component\AuthComponent.php(307): AuthComponent->isAuthorized(Array)
+#11 [internal function]: AuthComponent->startup(Object(AuthorizedMenusController))
+#12 D:\xampp\htdocs\rupayan\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#13 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#14 D:\xampp\htdocs\rupayan\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#15 D:\xampp\htdocs\rupayan\lib\Cake\Controller\Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#16 D:\xampp\htdocs\rupayan\lib\Cake\Routing\Dispatcher.php(182): Controller->startupProcess()
+#17 D:\xampp\htdocs\rupayan\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AuthorizedMenusController), Object(CakeRequest), Object(CakeResponse))
+#18 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 {main}
+2014-11-26 06:59:40 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Request URL: /rupayan/authorized_menus/edit/54756bf3-fe90-4ff6-bea5-0ac81b2ba194
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\rupayan\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `ns_rupa...', Array)
+#2 D:\xampp\htdocs\rupayan\lib\Cake\Model\Datasource\Database\Mysql.php(400): DboSource->execute('UPDATE `ns_rupa...')
+#3 D:\xampp\htdocs\rupayan\lib\Cake\Model\Model.php(1821): Mysql->update(Object(AuthorizedMenu), Array, Array)
+#4 D:\xampp\htdocs\rupayan\app\Controller\AuthorizedMenusController.php(98): Model->save(Array)
+#5 [internal function]: AuthorizedMenusController->edit('54756bf3-fe90-4...')
+#6 D:\xampp\htdocs\rupayan\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(AuthorizedMenusController), Array)
+#7 D:\xampp\htdocs\rupayan\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 D:\xampp\htdocs\rupayan\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AuthorizedMenusController), Object(CakeRequest), Object(CakeResponse))
+#9 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-11-26 07:01:20 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Request URL: /rupayan/authorized_menus/edit/54756bf3-fe90-4ff6-bea5-0ac81b2ba194
+Stack Trace:
+#0 D:\xampp\htdocs\rupayan\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\rupayan\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('UPDATE `ns_rupa...', Array)
+#2 D:\xampp\htdocs\rupayan\lib\Cake\Model\Datasource\Database\Mysql.php(400): DboSource->execute('UPDATE `ns_rupa...')
+#3 D:\xampp\htdocs\rupayan\lib\Cake\Model\Model.php(1821): Mysql->update(Object(AuthorizedMenu), Array, Array)
+#4 D:\xampp\htdocs\rupayan\app\Controller\AuthorizedMenusController.php(98): Model->save(Array)
+#5 [internal function]: AuthorizedMenusController->edit('54756bf3-fe90-4...')
+#6 D:\xampp\htdocs\rupayan\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(AuthorizedMenusController), Array)
+#7 D:\xampp\htdocs\rupayan\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 D:\xampp\htdocs\rupayan\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AuthorizedMenusController), Object(CakeRequest), Object(CakeResponse))
+#9 D:\xampp\htdocs\rupayan\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}

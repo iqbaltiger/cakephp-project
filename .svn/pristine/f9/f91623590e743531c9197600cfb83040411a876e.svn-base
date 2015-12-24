@@ -1,0 +1,17 @@
+$(function() {
+	var baseurl = 'http://localhost/rupayan/';
+	$('#AuthorizedMenuDominionId').on('change',function(){
+		url = baseurl+'/authorizedmenus/changeprocessselectoption';
+		var value = $(this).val();
+		$.ajax({
+			type : 'POST',
+			url : url,		
+			data: {dominion_id:value},
+			success : function(data) {
+				if(data){
+					$('#AuthorizedMenuProcessId').html(data);			
+				}
+			}
+		});
+	});
+});

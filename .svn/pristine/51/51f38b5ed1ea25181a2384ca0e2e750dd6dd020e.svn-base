@@ -1,0 +1,58 @@
+<div class="subnavbar">
+	<div class="subnavbar-inner">
+		<div class="container">
+			<ul class="mainnav">
+				<?php
+					//pr($admin_menu_data);
+				?>
+				<?php 
+					foreach($admin_menu_data as $menu_data): 
+						$controller = '';
+						$action = '';
+						$dropdown = '';
+						
+						if(!empty($menu_data['Dominion'])){
+							$controller = strtolower(str_replace('_', '', $menu_data['Dominion']['name']));
+						}
+						
+						if(!empty($menu_data['Process'])){
+							$action = strtolower(str_replace('_', '', $menu_data['Process']['name']));
+						}
+						
+						if(!empty($menu_data['children'])){
+							$dropdown = 'dropdown';
+						}
+						
+				?>
+					<?php if($this->Custom->authorizeMenuIsCheckedRole($role_id,$menu_data['AuthorizedMenu']['role_id'])): ?>
+					<li class="<?php echo $dropdown; ?>">
+						<?php 
+							if($dropdown=='dropdown'){
+								echo '<a class="dropdown-toggle" data-toggle="dropdown" href="javascript:;">'.$menu_data['AuthorizedMenu']['icon'].' <span>'.$menu_data['AuthorizedMenu']['name'].'</span></a>';
+							}else{
+								echo $this->Html->link($menu_data['AuthorizedMenu']['icon'].' <span>'.$menu_data['AuthorizedMenu']['name'].'</span>',array('controller'=>$controller,'action'=>$action),array('escape'=>false));
+							}
+						?>
+						<?php  ?>
+						
+						<?php if(!empty($menu_data['children'])): ?>
+							<ul class="dropdown-menu">
+								<?php foreach($menu_data['children'] as $dropdown_menu): ?>
+									<?php $controller = strtolower(str_replace('_', '', $dropdown_menu['Dominion']['name'])); ?>
+									<?php $action = strtolower(str_replace('_', '', $dropdown_menu['Process']['name'])); ?>
+									<li>
+										<?php echo $this->Html->link($dropdown_menu['AuthorizedMenu']['icon'].' <span>'.$dropdown_menu['AuthorizedMenu']['name'].'</span>',array('controller'=>$controller,'action'=>$action),array('escape'=>false)); ?>
+									</li>
+								<?php endforeach; ?>
+							</ul>
+						<?php endif; ?>
+					</li>
+					<?php endif; ?>
+					
+				<?php endforeach; ?>
+			</ul>
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /subnavbar-inner -->
+</div>
